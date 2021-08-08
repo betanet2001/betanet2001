@@ -6,8 +6,8 @@
 
 ---
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=betanet2001&theme=merko&hide_border=true)
+![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=BetaNet2001&theme=merko&hide_border=true)
 
 ---
 
-![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=BetaNet2001&theme=merko&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=betanet2001&theme=merko&hide_border=true)
