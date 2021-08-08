@@ -2,7 +2,7 @@
 
 ---
 
-[BetaNet's GitHub stats](https://github-readme-stats.vercel.app/api?username=betanet2001)
+![BetaNet's GitHub stats](https://github-readme-stats.vercel.app/api?username=betanet2001)
 
 ---
 
