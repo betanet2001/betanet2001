@@ -8,7 +8,7 @@
 
 ---
 
-![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=BetaNet2001&theme=merko)
+![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=BetaNet2001&theme=merko&hide_border=true)
 
 ---
 
