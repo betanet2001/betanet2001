@@ -1,6 +1,4 @@
-### Hi there, I'm BetaNet
-
-## I'm a Student and Developer
+## Hi there, I'm BetaNet
 
 ### Connect with me:
 
