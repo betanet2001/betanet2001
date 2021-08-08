@@ -1,15 +1,13 @@
 ## Hi there, I'm BetaNet
 
-### Connect with me:
+---
 
-[<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/twitter.svg" />][twitter]
-[<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/discord.svg" />][discord]
+![BetaNet's GitHub stats](https://github-readme-stats.vercel.app/api?username=betanet2001&show_icons=true&theme=merko&hide_border=true)
 
+---
 
+![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=BetaNet2001&theme=merko&hide_border=true)
 
+---
 
-<br />
-<br />
-
-[twitter]: https://twitter.com/BetaNet
-[discord]: https://discordapp.com/channels/@me/776820620104302592/
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=betanet2001&theme=merko&hide_border=true)
