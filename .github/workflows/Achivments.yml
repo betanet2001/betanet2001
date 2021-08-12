@@ -9,6 +9,8 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    env:
+      CUSTOM_OUTPUT_FILE: achivements.*
     steps:
       - uses: betanet2001/metrics@master
         with:
