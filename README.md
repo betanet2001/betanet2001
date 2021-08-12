@@ -1,7 +1,9 @@
 ## Hi there, I'm BetaNet
 
 ### Connect with me
-
+-Twitter
+-Discord
+-Mail
 ---
 
 ![BetaNet's GitHub stats](https://github-readme-stats.vercel.app/api?username=betanet2001&show_icons=true&theme=merko&hide_border=true&count_private=true)
