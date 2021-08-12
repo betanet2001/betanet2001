@@ -19,7 +19,7 @@ jobs:
           user: betanet2001
           template: classic
           base: ""
-          config_output: /src/achivments.*
+          config_output: achivements.*
           config_timezone: Europe/Berlin
           plugin_achievements: yes
           plugin_achievements_secrets: yes
