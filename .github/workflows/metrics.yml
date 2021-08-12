@@ -39,7 +39,7 @@ jobs:
         uses: lowlighter/metrics@master
         with:
           template: terminal
-          filename: /img/metrics.terminal.svg
+          filename: img/metrics.terminal.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, metadata
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
@@ -58,7 +58,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.achievements.svg
+          filename: img/metrics.plugin.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
@@ -75,7 +75,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.activity.svg
+          filename: img/metrics.plugin.activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_activity: yes
@@ -94,7 +94,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.discussions.svg
+          filename: img/metrics.plugin.discussions.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_discussions: yes
@@ -110,7 +110,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.followup.svg
+          filename: img/metrics.plugin.followup.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_followup: yes
@@ -123,7 +123,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.followup.user.svg
+          filename: img/metrics.plugin.followup.user.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_followup: yes
@@ -140,7 +140,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.gists.svg
+          filename: img/metrics.plugin.gists.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_gists: yes
@@ -156,7 +156,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.support.svg
+          filename: img/metrics.plugin.support.svg
           token: NOT_NEEDED
           plugin_support: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
@@ -171,7 +171,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.skyline.svg
+          filename: img/metrics.plugin.skyline.svg
           token: NOT_NEEDED
           plugin_skyline: yes
           plugin_skyline_year: 0
@@ -190,7 +190,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.habits.svg
+          filename: img/metrics.plugin.habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_habits: yes
@@ -206,7 +206,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.habits.facts.svg
+          filename: img/metrics.plugin.habits.facts.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_habits: yes
@@ -222,7 +222,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.habits.charts.svg
+          filename: img/metrics.plugin.habits.charts.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_habits: yes
@@ -241,7 +241,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.introduction.svg
+          filename: img/metrics.plugin.introduction.svg
           token: ${{ secrets.METRICS_BOT_TOKEN }}
           user: github
           base: header
@@ -258,7 +258,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.isocalendar.svg
+          filename: img/metrics.plugin.isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
@@ -271,7 +271,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.isocalendar.fullyear.svg
+          filename: img/metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
@@ -288,7 +288,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.lines.svg
+          filename: img/metrics.plugin.lines.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: repositories
           plugin_lines: yes
@@ -304,7 +304,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.notable.svg
+          filename: img/metrics.plugin.notable.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_notable: yes
@@ -317,7 +317,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          filename: /img/metrics.plugin.notable.repositories.svg
+          filename: img/metrics.plugin.notable.repositories.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_notable: yes
