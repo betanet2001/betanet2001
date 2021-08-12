@@ -10,7 +10,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: betanet2001/metrics@master
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -19,7 +19,6 @@ jobs:
           user: betanet2001
           template: classic
           base: ""
-          config_output: achivements.*
           config_timezone: Europe/Berlin
           plugin_achievements: yes
           plugin_achievements_secrets: yes
