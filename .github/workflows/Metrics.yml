@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # See action.yml for all options
-      - uses: betanet2001/betanet2001@img
+      - uses: betanet2001/betanet2001@stable
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
