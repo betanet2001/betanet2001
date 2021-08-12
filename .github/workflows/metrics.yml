@@ -232,24 +232,7 @@ jobs:
           output_action: pull-request
           delay: 10
 
-      # ======================================================================================
-      # 🙋 Introduction
-
-      # Display introduction (user)
-      - name: 🙋 Introduction plugin
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
-        with:
-          filename: img/metrics.plugin.introduction.svg
-          token: ${{ secrets.METRICS_BOT_TOKEN }}
-          user: github
-          base: header
-          plugin_introduction: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
-          output_action: pull-request
-          delay: 10
-
-      # ======================================================================================
+ # ======================================================================================
       # 📅 Isometric commit calendar
 
       # Display isometric calendar (180 days)
