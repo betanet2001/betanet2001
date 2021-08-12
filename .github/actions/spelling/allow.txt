@@ -8,3 +8,7 @@ readme
 Wakatime
 wakatime
 Langs
+langs
+betanet
+Betanet
+BetaNet
