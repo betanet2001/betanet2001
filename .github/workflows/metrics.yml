@@ -338,4 +338,35 @@ jobs:
                 sha,
               })
             } catch (error) { console.log(error) }
-            
+
+
+
+#=======================================================================================
+#Labler for pull request
+#=======================================================================================
+
+  github-metrics-labler:
+    needs: [github-metrics]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/labeler@v3
+        with: 
+          repo-token: "${{ secrets.GITHUB_TOKEN}}"
+
+          metrics-pr: img/*
+
+
+#=======================================================================================
+#Labler for pull request
+#=======================================================================================
+  github-metrics-merger:
+    needs: [github-metrics-labler]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: "pascalgn/automerge-action@v0.14.2"
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          MERGE_LABELS: "metrics-pr"
+          MERGE_REMOVE_LABELS: "metrics-pr"
+          MERGE_COMMIT_MESSAGE: "automatic"
+
