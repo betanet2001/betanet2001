@@ -174,12 +174,12 @@ jobs:
           filename: img/metrics.plugin.skyline.svg
           token: NOT_NEEDED
           plugin_skyline: yes
-          plugin_skyline_frames: 120
+          plugin_skyline_frames: 60
           plugin_skyline_quality: 1
           plugin_skyline_compatibility: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 60
+          delay: 10
 
       # ======================================================================================
       # 💡 Coding habits
@@ -352,9 +352,6 @@ jobs:
       - uses: actions/labeler@v3
         with: 
           repo-token: "${{ secrets.GITHUB_TOKEN}}"
-
-          metrics-pr: img/*
-
 
 #=======================================================================================
 #Labler for pull request
