@@ -1,1 +1,2 @@
-metrics-pr: img/*
+metrics-pr:
+- img/*
