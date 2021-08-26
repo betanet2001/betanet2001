@@ -1,12 +1,12 @@
-[comment]:                                                                
-[comment]:    File: README.md                                              
-[comment]:                                                                 
-[comment]:    Created on Thu Aug 26 2021 12:11:26                          
-[comment]:    by Felix Hollitzer (BetaNet)                                 
-[comment]:                                                                 
-[comment]:    Copyright (c) 2021 Felix Hollitzer. All rights reserved.     
-[comment]:                                                                 
-[comment]:
+<!--                                                                -->
+<!--    File: README.md                                             -->
+<!--                                                                -->
+<!--    Created on Thu Aug 26 2021 12:11:26                         -->
+<!--    by Felix Hollitzer (BetaNet)                                -->
+<!--                                                                -->
+<!--    Copyright (c) 2021 Felix Hollitzer. All rights reserved.    -->
+<!--                                                                -->
+<!--                                                                -->
 ## Hi there, I'm BetaNet
 
 ### Connect with me
