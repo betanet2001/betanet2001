@@ -342,14 +342,14 @@ jobs:
 #=======================================================================================
 #Labler for pull request
 #=======================================================================================
-  github-metrics-merger:
-    needs: [github-metrics]
-    runs-on: ubuntu-latest
-    steps:
-      - uses: "pascalgn/automerge-action@v0.14.2"
-        env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          MERGE_LABELS: "metrics-pr"
-          MERGE_REMOVE_LABELS: "metrics-pr"
-          MERGE_COMMIT_MESSAGE: "automatic"
+#  github-metrics-merger:
+#    needs: [github-metrics]
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: "pascalgn/automerge-action@v0.14.2"
+#        env:
+#          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+#          MERGE_LABELS: "metrics-pr"
+#          MERGE_REMOVE_LABELS: "metrics-pr"
+#          MERGE_COMMIT_MESSAGE: "automatic"
 
