@@ -36,23 +36,23 @@
 <summary>Some unnecessary stats</summary>
     <br/>
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.achievements.svg">
-    ***
+    ---
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.habits.svg">
-    ***
+    ---
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.isocalendar.svg">
-    ***
+    ---
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.lines.svg">
     <!--Skyline excedes content size limit-->
     <!--
-    ***
+    ---
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.skyline.svg">
     -->
-    ***
+    ---
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.support.svg">
-    ***
+    ---
     <!--
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.terminal.svg">
-    ***
+    ---
     -->
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.activity.svg">
 </details>
