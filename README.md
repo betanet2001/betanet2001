@@ -37,23 +37,23 @@
     <br/>
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.achievements.svg">
     <br/>
-    <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.classic.svg">
-    <br/>
-    <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.activity.svg">
-    <br/>
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.habits.svg">
-    <br/>
-    <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.habits.charts.svg">
-    <br/>
-    <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.habits.facts.svg">
     <br/>
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.isocalendar.svg">
     <br/>
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.lines.svg">
+    <!--Skyline excedes content size limit-->
+    <!--
     <br/>
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.skyline.svg">
+    -->
     <br/>
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.support.svg">
     <br/>
+    <!--
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.terminal.svg">
+    <br/>
+    -->
+    <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.activity.svg">
+    <br/>
 </details>
