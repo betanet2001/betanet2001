@@ -31,7 +31,7 @@ jobs:
           plugin_lines: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
 
       # Terminal template example
       - name: 📙 Terminal template
@@ -44,7 +44,7 @@ jobs:
           base: header, metadata
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
 
       # ======================================================================================
       # 🧩 PLUGINS
@@ -65,7 +65,7 @@ jobs:
           plugin_achievements_only: polyglot, stargazer, developer, contributor, octonaut
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
 
       # ======================================================================================
       # 📰 Recent activity
@@ -84,7 +84,7 @@ jobs:
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
 
       # ======================================================================================
       # 💬 GitHub Discussions
@@ -100,7 +100,7 @@ jobs:
           plugin_discussions: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
 
       # ======================================================================================
       # 🎟️ Follow-up of issues and pull requests
@@ -116,7 +116,7 @@ jobs:
           plugin_followup: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
           
       # Display ratio of open/closed/merged issues and pull requests created by user
       - name: 🎟️ Follow-up plugin (user)
@@ -130,7 +130,7 @@ jobs:
           plugin_followup_sections: user
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
 
       # ======================================================================================
       # 🎫 Gists
@@ -146,7 +146,7 @@ jobs:
           plugin_gists: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
           
       # ======================================================================================
       # 💭 GitHub Community Support
@@ -161,7 +161,7 @@ jobs:
           plugin_support: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
 
       # ======================================================================================
       # 🌇 GitHub Skyline 3D calendar
@@ -179,7 +179,7 @@ jobs:
           plugin_skyline_compatibility: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
 
       # ======================================================================================
       # 💡 Coding habits
@@ -198,7 +198,7 @@ jobs:
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           config_timezone: Europe/Paris
           output_action: pull-request
-          delay: 10
+          delay: 60
 
       # Display coding habits and recent activity, only facts section (setup timezone for accurate metrics)
       - name: 💡 Habits plugin (facts)
@@ -214,7 +214,7 @@ jobs:
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           config_timezone: Europe/Paris
           output_action: pull-request
-          delay: 10
+          delay: 60
 
       # Display coding habits and recent activity, only charts section (setup timezone for accurate metrics)
       - name: 💡 Habits plugin (charts)
@@ -230,7 +230,7 @@ jobs:
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           config_timezone: Europe/Paris
           output_action: pull-request
-          delay: 10
+          delay: 60
 
  # ======================================================================================
       # 📅 Isometric commit calendar
@@ -246,7 +246,7 @@ jobs:
           plugin_isocalendar: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
 
       # Display isometric calendar (365 days)
       - name: 📅 Isocalendar plugin (full year)
@@ -260,7 +260,7 @@ jobs:
           plugin_isocalendar_duration: full-year
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
 
       # ======================================================================================
       # 👨‍💻 Lines of code changed
@@ -276,7 +276,7 @@ jobs:
           plugin_lines: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
 
 # ======================================================================================
       # 🎩 Notable contributions
@@ -292,7 +292,7 @@ jobs:
           plugin_notable: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
           
       # Display badges of organizations with at least one commit from user
       - name: 🎩 Notable contributions (with repositories name)
@@ -306,7 +306,7 @@ jobs:
           plugin_notable_repositories: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           output_action: pull-request
-          delay: 10
+          delay: 60
 
 # ======================================================================================
 # Below is a special job used to render markdown as images 
