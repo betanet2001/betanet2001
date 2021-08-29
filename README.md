@@ -7,7 +7,7 @@
 <!--    Copyright (c) 2021 Felix Hollitzer. All rights reserved.    -->
 <!--                                                                -->
 <!--                                                                -->
-## Hi there, I'm BetaNet
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&lines=Hi+there+%C2%AF%5C_(%E3%83%84)_%2F%C2%AF;I'm+BetaNet)](https://git.io/typing-svg)
 
 ### Connect with me
 -Twitter
