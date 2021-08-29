@@ -36,7 +36,6 @@
 <summary>Some unnecessary stats</summary>
     <br/>
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.achievements.svg">
-
     ---
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.achievements.svg">
     ---
