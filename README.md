@@ -35,7 +35,7 @@
 <details>
 <summary>Some unnecessary stats</summary>
 
-![GitHub Achivements](https://github.com/betanet2001/betanet2001/img/metrics.plugin.achievements.svg)
+[[img\metrics.plugin.achievements.svg]]
 
 ---
 
