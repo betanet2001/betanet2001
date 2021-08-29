@@ -8,7 +8,6 @@
 <!--                                                                -->
 <!--                                                                -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&lines=Hi+there+%C2%AF%5C_(%E3%83%84)_%2F%C2%AF;I'm+BetaNet)](https://git.io/typing-svg)
-
 ### Connect with me
 -Twitter
 -Discord
