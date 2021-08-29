@@ -35,7 +35,7 @@
 <details>
 <summary>Some unnecessary stats</summary>
 
-[[img/metrics.plugin.achievements.svg]]
+[[/img/metrics.plugin.achievements.svg]]
 
 ---
 
