@@ -37,7 +37,7 @@
     <br/>
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.achievements.svg">
     <br/>
-    <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.classic.svg">
+    <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.classic.svg">
     <br/>
     <img src="https://raw.github.com/betanet2001/betanet2001/stable/img/metrics.plugin.activity.svg">
     <br/>
