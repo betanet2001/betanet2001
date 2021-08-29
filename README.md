@@ -25,3 +25,12 @@
 ---
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=betanet2001&theme=merko&hide_border=true)
+
+---
+
+<details>
+<summary>Some unnecessary stats</summary>
+<br>
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=BetaNet2001&theme=merko&hide_border=true)](https://git.io/streak-stats)
+
+</details>
